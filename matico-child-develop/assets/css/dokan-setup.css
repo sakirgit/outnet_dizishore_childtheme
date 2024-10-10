@@ -1,0 +1,48 @@
+.wc-setup.dokan-vendor-setup-wizard .wc-setup-actions .button {
+    padding: 14px 20px;
+    min-width: 120px !important;
+    font-size: 12px;
+    font-weight: 400;
+    border: none;
+}
+
+.wc-setup.dokan-vendor-setup-wizard .wc-setup-content{
+    font-size: 15px;
+}
+
+.wc-setup.dokan-vendor-setup-wizard .wc-setup-content h1{
+    font-size: 20px;
+}
+
+.dokan-vendor-setup-wizard form input {
+    padding: 8px 15px;
+    font-size: 15px;
+    border: 1px solid #e6e6e6;
+}
+input[type="text"]:focus, input[type="password"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input[type="checkbox"]:focus, input[type="radio"]:focus, select:focus, textarea:focus{
+    color: #053d80;
+    outline: 0;
+    box-shadow: none;
+}
+
+.dokan-vendor-setup-wizard form .dokan-input-group-addon {
+    display: block;
+    margin-bottom: 5px;
+}
+.dokan-vendor-setup-wizard .wc-setup-content .form-table th{
+    width: 30%;
+}
+.dokan-vendor-setup-wizard.wc-setup .select2-container {
+    width: 100%!important;
+}
+
+@media (max-width: 767px){
+    .dokan-vendor-setup-wizard .wc-setup-content .form-table th {
+        width: 100%;
+        padding-bottom: 0;
+    }
+    .wc-setup.dokan-vendor-setup-wizard .wc-setup-actions .button {
+        width: 100%;
+        margin-right: 0;
+    }
+}
